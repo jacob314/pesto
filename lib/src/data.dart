@@ -3,8 +3,8 @@ import 'model.dart';
 
 const List<Recipe> kPestoRecipes = <Recipe>[
   Recipe(
-    name: 'Roasted Chicken',
-    author: 'Peter Carlsson',
+    name: 'My Grandmother\'s Roasted Chicken',
+    author: 'Peter Carlsson and Jim Carlsson',
     ingredientsImagePath: 'food/icons/main.png',
     ingredientsImagePackage: kGalleryAssetsPackage,
     description:

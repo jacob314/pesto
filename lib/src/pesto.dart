@@ -308,18 +308,14 @@ class RecipeCard extends StatelessWidget {
                       height: 48.0,
                     ),
                   ),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text(recipe.name,
-                            style: titleStyle,
-                            softWrap: false,
-                            overflow: TextOverflow.ellipsis),
-                        Text(recipe.author, style: authorStyle),
-                      ],
-                    ),
+                  Column(
+                    children: <Widget>[
+                      Text(
+                        recipe.name,
+                        style: titleStyle,
+                      ),
+                      Text(recipe.name.toUpperCase(), style: authorStyle),
+                    ],
                   ),
                 ],
               ),
